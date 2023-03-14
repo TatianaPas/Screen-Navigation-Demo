@@ -9,6 +9,9 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    @IBOutlet weak var registerTextField: UITextField!
+    @IBOutlet weak var registerPwdTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +19,17 @@ class RegisterViewController: UIViewController {
     }
     
 
+    @IBAction func registerBtn(_ sender: UIButton) {
+        let un = registerTextField.text
+        let pwd = registerPwdTF.text
+        if un!.isEmpty || pwd!.isEmpty {
+            showMessage(msg: "Please enter details", controller: self)
+        } else{
+            username = un!
+            password = pwd!
+            showMessage(msg: "Registered sucessfully", controller: self)
+        }
+    }
     /*
     // MARK: - Navigation
 

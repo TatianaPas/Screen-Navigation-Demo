@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4160056A29C03CB300BB5036 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160056929C03CB300BB5036 /* RegisterViewController.swift */; };
 		4160056C29C03D1D00BB5036 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160056B29C03D1D00BB5036 /* LoginViewController.swift */; };
+		4160056E29C10E7700BB5036 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160056D29C10E7700BB5036 /* ResetPasswordViewController.swift */; };
 		4177DC9129BECFE800A04398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177DC9029BECFE800A04398 /* AppDelegate.swift */; };
 		4177DC9329BECFE800A04398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177DC9229BECFE800A04398 /* SceneDelegate.swift */; };
 		4177DC9529BECFE800A04398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177DC9429BECFE800A04398 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		4160056929C03CB300BB5036 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4160056B29C03D1D00BB5036 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4160056D29C10E7700BB5036 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		4177DC8D29BECFE800A04398 /* Screen Navigation Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Navigation Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177DC9029BECFE800A04398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4177DC9229BECFE800A04398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		4177DC8429BECFE800A04398 = {
 			isa = PBXGroup;
 			children = (
+				4160056D29C10E7700BB5036 /* ResetPasswordViewController.swift */,
 				4160056B29C03D1D00BB5036 /* LoginViewController.swift */,
 				4160056929C03CB300BB5036 /* RegisterViewController.swift */,
 				4177DC8F29BECFE800A04398 /* Screen Navigation Demo */,
@@ -147,6 +150,7 @@
 				4177DC9529BECFE800A04398 /* ViewController.swift in Sources */,
 				4177DC9129BECFE800A04398 /* AppDelegate.swift in Sources */,
 				4177DC9329BECFE800A04398 /* SceneDelegate.swift in Sources */,
+				4160056E29C10E7700BB5036 /* ResetPasswordViewController.swift in Sources */,
 				4160056C29C03D1D00BB5036 /* LoginViewController.swift in Sources */,
 				4160056A29C03CB300BB5036 /* RegisterViewController.swift in Sources */,
 			);

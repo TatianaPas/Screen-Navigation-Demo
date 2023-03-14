@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
     @IBAction func loginBtn(_ sender: UIButton) {
         let un = usernameTF.text!
         let pwd = passwordTF.text!
-        if un == "Joan" && pwd == "1234"
+        if un == username && pwd == password
         {
             showMessage(msg: "Welcome", controller: self)
         } else {
