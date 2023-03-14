@@ -1,5 +1,4 @@
 This as a class project - Learning how to add navigation between screens and display popup notifications.
 First screen:
 
-
-<img width="238" alt="Screenshot 2023-03-13 at 7 13 18 PM" src="https://user-images.githubusercontent.com/81549043/224621639-ca3cd84f-a4b7-4897-90d3-b307abfcc4d5.png">
+<img width="897" alt="Screenshot 2023-03-14 at 5 29 02 PM" src="https://user-images.githubusercontent.com/81549043/224893560-14d14e9e-9811-4aa5-a0d3-9b1df6ca7390.png">
