@@ -7,15 +7,48 @@
 
 import UIKit
 
+func showMessage(msg:String, controller: UIViewController)
+
+{
+    let alert = UIAlertController(title: "", message: msg, preferredStyle: .actionSheet);
+    let action = UIAlertAction(title: "OK", style: .default)
+    {
+        action
+        in
+        controller.dismiss(animated: true, completion: nil)
+    }
+    alert.addAction(action)
+    controller.present(alert, animated: true, completion :nil)
+    
+}
+var username:String!
+var password:String!
+
+
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var usernameTF: UITextField!
+    
+    @IBOutlet weak var passwordTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func loginBtn(_ sender: UIButton) {
+        let un = usernameTF.text!
+        let pwd = passwordTF.text!
+        if un == "Joan" && pwd == "1234"
+        {
+            showMessage(msg: "Welcome", controller: self)
+        } else {
+            showMessage(msg: "Wrong password", controller: self)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

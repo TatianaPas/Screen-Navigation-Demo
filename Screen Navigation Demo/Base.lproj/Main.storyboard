@@ -137,6 +137,9 @@
                                 <color key="tintColor" red="0.93290914950000003" green="0.4258809556" blue="0.1866045878" alpha="0.88118122249999997" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In"/>
+                                <connections>
+                                    <action selector="loginBtn:" destination="RRn-Nk-i9j" eventType="touchUpInside" id="wRk-it-iJ8"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uTj-aQ-DeO">
                                 <rect key="frame" x="62" y="463" width="290" height="50"/>
@@ -180,6 +183,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rJD-1s-FAp"/>
+                    <connections>
+                        <outlet property="passwordTF" destination="uTj-aQ-DeO" id="kdz-ET-tv2"/>
+                        <outlet property="usernameTF" destination="XMv-Jd-MLu" id="1Wf-Hc-qDY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEX-o0-M0Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
